@@ -1,0 +1,130 @@
+body{
+	font-family: 'Font Awesome ';
+}
+
+i{
+	font-style: normal;
+	 
+}
+
+/* .fa:before{
+ 	font-family: 'Font Awesome 5 Free';
+ 	content: "\f5e2";
+}*/
+.header{
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+	
+}
+.img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.header__capa{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #1c1c1d;
+	opacity: .4;
+	mix-blend-mode: luminosity;
+}
+.header__descripcion{
+	position: absolute;
+	text-align: center;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+.header__titulo{
+	width: 50%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.header__btn{
+	border: 1px solid #fff;
+	display: inline-block;
+	padding: 15px 70px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 70px;
+	transition: all ease .3s;
+	background-color: #b7753b;
+}
+
+
+.section{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section__h2{
+	width: 100%;
+	margin-bottom: 100px;
+	padding: 0px 60px
+}
+
+.icono{
+	width: 100%;
+	
+}
+.section__servicios{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 50px
+}
+
+.section__atencion{
+	display: flex;
+	margin:10px 10px;
+	width: 30%;
+}
+
+.section__img{
+	
+	width: 25%
+}
+
+.section__descripcion{
+
+	width: 100%;
+	position: relative;
+	margin-left: 27px
+
+}
+
+.div2 h3{
+	position: absolute;
+	top: -22px;
+}
+.div2 p{
+	margin-top: 31px;
+	 width: 100%;
+}
+/*responsive*/
+@media screen and (max-width: 420px){
+	.header__titulo{
+		width: 100%;
+	}
+	.header__btn{
+		padding: 15px 30px;
+		margin-top: 60px;
+	}
+	.section__atencion{
+		display: flex;
+	
+		width: 100%;
+	}
+}
