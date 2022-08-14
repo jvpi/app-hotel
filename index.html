@@ -13,10 +13,34 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Life+Savers&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<script type="text/javascript" defer src="modal.js"></script>
 </head>
 
 <body>
-	
+	<div class="modal" id="modal">
+		<div class="modal__cerrar" id="cerrar-modal">
+			<span class="modal__cerrar-span">Cerrar</span>
+			<span class="modal__cerrar-x">x</span>
+		</div>
+		<div class="modal__flex">
+			<div class="modal__secciones modal__secciones--border-left">
+				<h2 class="modal__h2">Comienze su estadia</h2>
+				<span class="modal__span modal__span--top">Entrada</span>
+			</div>
+			<div class="modal__secciones modal__secciones--border-left">
+				<h2 class="modal__h2">Termine su estadia</h2>
+				<span class="modal__span modal__span--top">Salida</span>
+				<a href="/reserva">
+					<span class="modal__span">Reservar</span>
+				</a>
+				
+			</div>
+			<div class="modal__secciones">
+				<h2 class="modal__h2">Cantidad de personas</h2>
+				<span class="modal__span modal__span--top modal__span--cantidad">1 Hab. 1 persona</span>
+			</div>
+		</div>
+	</div>
 	<header class="header">
 		<img src="img/hotel3.webp" class="img">
 		
@@ -26,7 +50,7 @@
 				Esperamos que disfrute
 				su estancia 
 			</h1>
-			<a href="#" class="header__btn">Reserva Ya !</a>
+			<a href="#" class="header__btn" id="btn">Reserva Ya !</a>
 		</div>
 		<p class="header__p">hotel alto barinas</p>
 	</header>
@@ -235,9 +259,7 @@
 		</div>
 	</main>
 	<section class="reseña">
-	<!-- 	<span class="material-symbols-outlined">
-format_quote
-</span> -->
+
 
 		<h2 class="reseña__titulo">Reseñas de huéspedes</h2>
 		<p class="reseña__text">We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
