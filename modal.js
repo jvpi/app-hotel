@@ -16,5 +16,5 @@ function cerrarModal() {
 		document.body.style.overflow = 'visible'
 	})
 }
-// abrirModal()
-// cerrarModal()
+abrirModal()
+cerrarModal()

@@ -1,0 +1,103 @@
+.section{
+	width: 100%;
+	padding: 35px 15px;
+}
+.flex{
+	display: flex;
+
+}
+
+.content-form{
+	width: 50%;
+	
+}
+.section__ubicaion{
+	width: 100%;
+	
+	justify-content: space-around;
+}
+.section__link{
+	text-decoration: none;
+	color: #ae9548;
+	font-size: 30px;
+
+}
+.section__span-ubicacion{
+	font-size:20px;
+}
+.section__span-text{
+	font-size: 24px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.section__span-text--fontSize{
+	font-size: 14px;
+}
+.section__inputs{
+	margin-bottom: 23px;
+	padding: 7px;
+}
+.section__inputs--width{
+	padding-right: 222px
+}
+
+.section-btn{
+	background: none;
+	outline-offset: none;
+	border: none;
+	background-color: #b7753b;
+	padding: 6px 11px;
+	color: #fff;
+	cursor: pointer;
+	transition: background .3s;
+}
+.section-btn:hover{
+	
+	background-color: #C17C3F;
+	
+}
+
+.pedido{
+	width: 50%;
+	
+	display: flex;
+}
+
+.main__habitaciones{
+	width: 50%;
+	background-color: #F3F3F3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 50%;
+	padding: 10px;
+
+}
+.main__container-img{
+	height: 100%;
+	
+}
+.main__img{
+	width: 182px;
+	height: 75%;
+	object-fit: cover;
+}
+.main__container-descripcion{
+	padding: 0 20px;
+	width: 66%;
+
+	height: 100%;
+}
+.main__container-precio{
+	justify-content: flex-end;
+	
+
+}
+.container-Precio-total{
+	font-size: 24px;
+	width: 50%;
+	padding: 10px 0;
+	background-color: #F3F3F3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main__icono-img{
+	width: 20px
+}

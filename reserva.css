@@ -32,6 +32,7 @@ body{
 }
 .flex{
 	display: flex;
+	
 }
 .header{
 	font-family: 'Life Savers', cursive;
